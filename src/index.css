@@ -1,0 +1,74 @@
+body{
+	background: #CCC;
+  font-family: Arial;
+  text-align: center;
+ width: 100%;
+}
+
+#app{
+	background: #F1F1F1;
+	padding: 10px;
+ width: 800px;
+ position: relative;
+ margin: 0 auto;
+ display: flex;
+}
+
+h1{
+  background: #424242;
+  padding: 25px;
+  color: #fff;
+}
+h2{
+  color: #1CBC2C;
+   font-size: 3em;
+}
+button{
+  background: #eaeaea;
+  padding: 10px;
+  margin: 0 5px 0 0;
+  border:none;
+  border-bottom: 2px solid #777;
+  font-size: 1.1em;
+ display: block;
+ width: 100%;
+}
+button:hover{
+  background: #EF5F3C;
+  color: #fff;
+  border-bottom: 2px solid #a15F3C;
+}
+
+.tile{
+ width: 50%;
+ display:block;
+ margin: 5px;
+ float: left;
+}
+.content{
+ width: 50%
+}
+.header {
+ background-color: #CCC;
+ padding: 25px;
+ margin-bottom: 10px;
+}
+
+.clear {
+ clear: both;
+}
+
+.content {
+ padding: 15px 0;
+}
+
+.image-container{
+ width: 50%;
+ border-radius: 10px;
+}
+
+.container .price{
+ font-size: 1.2em;
+ color: red;
+ text-align: center;
+}
